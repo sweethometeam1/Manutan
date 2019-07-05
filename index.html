@@ -60,9 +60,9 @@
 <nav class="navigation">
     <div class="container">
         <div class="row navigation-wrapper">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                         <div class="navigation-tab">
                             <a href="#" class="navigation-tab__link orange">Parcourir nos catégories</a>
                         </div>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="navigation-link">
                     <ul class="navigation-link__list">
                         <li>
@@ -86,6 +86,9 @@
                         <li>
                             <a href="#">Aide et contact</a>
                         </li>
+                        <li>
+                            <a href="#" class="builder">Renovai</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -93,12 +96,236 @@
     </div>
 </nav>
 <main class="main">
+    <div class="manutan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="manutan-list col-lg-12">
+                        <li class="manutan-list__item">
+                            <a href="#">Bureau</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#">Entrepôt</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#">Fournitures industrielles et outillage</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#">Emballage</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#">Sécurité</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#">Espace extérieur</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#">Hygiène</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#" class="dark pick">Soldes</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#" class="dark">Nouveautés</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#" class="dark">Les produits Manutan</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#" class="dark">Espace ergonomie</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#" class="dark">Demander notre catalogue</a>
+                        </li>
+                        <li class="manutan-list__item">
+                            <a href="#" class="dark">Retrouver nos conseils</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <div class="manutan-content">
+                        <form class="search">
+                            <label for="content-search">Vous cherchez quelque chose en particulier ? </label>
+                            <input type="search" class="search-field" id="content-search" placeholder="Ex: 'transpalette' ou 'A002029'">
+                            <input type="submit" class="search-submit" value="Chercher">
+                        </form>
+                        <div class="manutan-content__slider">
+                            <div class="discounts">
+                                <div class="discounts-item">
+                                    <a href="#">
+                                        <img src="img/manutan-slider-1.png" alt="discount" title="discount">
+                                    </a>
+                                </div>
+                                <div class="discounts-item">
+                                    <a href="#">
+                                        <img src="img/manutan-slider-2.png" alt="discount" title="discount">
+                                    </a>
+                                </div>
+                                <div class="discounts-item">
+                                    <a href="#">
+                                        <img src="img/manutan-slider-2.png" alt="discount" title="discount">
+                                    </a>
+                                </div>
+                                <div class="discounts-item">
+                                    <a href="#">
+                                        <img src="img/manutan-slider-3.png" alt="discount" title="discount">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="manutan-content__bucket bucket">
+                            <h2 class="bucket-title">Commande rapide</h2>
+                            <hr class="bucket-line">
+                            <form class="bucket-form">
+                                <h3>Ajoutez directement votre produit au panier</h3>
+                                <div class="bucket-form__input col-lg-4">
+                                    <label for="bucket-name-1"></label>
+                                    <input type="text" id="bucket-name-1" placeholder="référence">
+                                    <label for="bucket-quantity-1"></label>
+                                    <input type="number" id="bucket-quantity-1" placeholder="qty">
+                                </div>
+                                <div class="bucket-form__input col-lg-4">
+                                    <label for="bucket-name-2"></label>
+                                    <input type="text" id="bucket-name-2" placeholder="référence">
+                                    <label for="bucket-quantity-2"></label>
+                                    <input type="number" id="bucket-quantity-2" placeholder="qty">
+                                </div>
+                                <div class="bucket-form__input col-lg-4">
+                                    <label for="bucket-name-3"></label>
+                                    <input type="text" id="bucket-name-3" placeholder="référence">
+                                    <label for="bucket-quantity-3"></label>
+                                    <input type="number" id="bucket-quantity-3" placeholder="qty">
+                                </div>
+                                <div class="bucket-form__more">
+                                    <a href="#">Ajouter une ligne</a>
+                                </div>
+                                <div class="bucket-form__submit">
+                                    <input type="submit" value="Ajouter au panier">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="specifications">
         <div class="container">
             <div class="row main-wrapper">
                 <div class="col-lg-9 main-block">
                     <div class="poll-progress" id="progressbar"></div>
                     <div class="poll">
+                        <div class="poll-item next-b">
+                            <h2 class="poll-item__title">Pick the Offices that make you happy</h2>
+                            <p class="poll-item__description">Choose as many as you like</p>
+                            <ul class="masonry">
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry1.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry2.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__full">
+                                        <img src="img/masonry3.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__full">
+                                        <img src="img/masonry4.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry5.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry6.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry7.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry19.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry9.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry3.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry11.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry12.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__full">
+                                        <img src="img/masonry13.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__full">
+                                        <img src="img/masonry14.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry15.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry16.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry17.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry18.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry19.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry20.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry21.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                         <div class="poll-item">
                             <h2 class="poll-item__title">What’s the size of your office?</h2>
                             <p class="poll-item__description">This help us</p>
@@ -209,11 +436,10 @@
                         </div>
                         <div class="poll-item">
                             <h2 class="poll-item__title">Do you need a conference room?</h2>
-                            <p class="poll-item__description">This help us</p>
                             <ul class="poll-item__list card">
                                 <li class="col-lg-6 card-item">
                                     <a href="#">
-                                        <div class="col-lg-7 card-item__circle">
+                                        <div class="col-lg-9 card-item__circle">
                                             <img src="img/round1.jpg" alt="Conference Room Image" title="Conference Room Image">
                                             <i class="glyph-like"></i>
                                         </div>
@@ -222,7 +448,7 @@
                                 </li>
                                 <li class="col-lg-6 card-item">
                                     <a href="#">
-                                        <div class="col-lg-7 card-item__circle">
+                                        <div class="col-lg-9 card-item__circle">
                                             <img src="img/round1.jpg" alt="Conference Room Image" title="Conference Room Image">
                                             <i class="glyph-like unlike"></i>
                                         </div>
@@ -287,11 +513,10 @@
                         </div>
                         <div class="poll-item">
                             <h2 class="poll-item__title">Do you need an Open space area?</h2>
-                            <p class="poll-item__description">This help us</p>
                             <ul class="poll-item__list card">
                                 <li class="col-lg-6 card-item">
                                     <a href="#">
-                                        <div class="col-lg-7 card-item__circle">
+                                        <div class="col-lg-9 card-item__circle">
                                             <img src="img/round2.jpg" alt="Open space area" title="Open space area">
                                             <i class="glyph-like"></i>
                                         </div>
@@ -300,7 +525,7 @@
                                 </li>
                                 <li class="col-lg-6 card-item">
                                     <a href="#">
-                                        <div class="col-lg-7 card-item__circle">
+                                        <div class="col-lg-9 card-item__circle">
                                             <img src="img/round2.jpg" alt="Open space area" title="Open space area">
                                             <i class="glyph-like unlike"></i>
                                         </div>
@@ -366,7 +591,7 @@
                         <div class="poll-item next-b">
                             <h2 class="poll-item__title">Which is your price range?</h2>
                             <p class="poll-item__description">This help us</p>
-                            <div class="col-lg-12">
+                            <div class="col-lg-12 poll-item__spacer">
                                 <div class="poll-item__range" id="slider-range"></div>
                                 <div class="poll-item__amount">
                                     <label for="amount-min"></label>
@@ -401,7 +626,7 @@
                                 <li class="col-lg-4 card-item">
                                     <a href="#">
                                         <div class="card-item__icon big-icon">
-                                            <span class="glyph-pig"></span>
+                                            <span class="glyph-diamond"></span>
                                         </div>
                                         <p class="card-item__name">Go for the Best</p>
                                         <p class="card-item__description">I spend what’s necessary to achieve my vision</p>
@@ -552,68 +777,6 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="poll-item next-b">
-                            <h2 class="poll-item__title">Pick the Offices that make you happy</h2>
-                            <p class="poll-item__description">You can choose as you like</p>
-                            <ul class="masonry">
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry1.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry2.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__full">
-                                        <img src="img/masonry3.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__full">
-                                        <img src="img/masonry4.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry5.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry6.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry7.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry8.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry9.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry10.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                                <li class="col-lg-4 masonry-item">
-                                    <a href="#" class="masonry-item__photo">
-                                        <img src="img/masonry1.jpg" alt="Masonry" title="Masonry">
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="masonry-shadow"></div>
-                        </div>
                         <div class="poll-item dislike-b">
                             <h2 class="poll-item__title">Which style suits you better?</h2>
                             <p class="poll-item__description">This help us</p>
@@ -655,9 +818,9 @@
                                 </div>
                                 <div class="helper-text">
                                     <div class="helper-text__info">
-                                        <h3>Hello Anna!</h3>
+                                        <h3>Hello Lili!</h3>
                                         <span class="glyph-arrow-bottom opened"></span>
-                                        <p>I’m Made, Made’s Al-powered assistant here to help you fined the best items for you!</p>
+                                        <p>I’m Manutan, Manutan Al-powered assistant here to help you fined the best items for you!</p>
                                     </div>
                                 </div>
                                 <div class="helper-choice">
@@ -692,15 +855,268 @@
                                 </a>
                             </li>
                         </ul>
+                        <div class="marker">
+                            <ul class="marker-list">
+                                <li class="marker-list__item chair">
+                                    <div class="products">
+                                            <div class="products-upper">
+                                                <div class="products-slider-1 products-slider">
+                                                    <div class="products-slider__item">
+                                                        <img src="img/product3.png" alt="Chair" title="Chair">
+                                                    </div>
+                                                    <div class="products-slider__item">
+                                                        <img src="img/product3.png" alt="Chair" title="Chair">
+                                                    </div>
+                                                    <div class="products-slider__item">
+                                                        <img src="img/product3.png" alt="Chair" title="Chair">
+                                                    </div>
+                                                    <div class="products-slider__item">
+                                                        <img src="img/product3.png" alt="Chair" title="Chair">
+                                                    </div>
+                                                    <div class="products-slider__item">
+                                                        <img src="img/product3.png" alt="Chair" title="Chair">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="products-bottom">
+                                                <h3>Fauteuil Baltic Havane - Paperflow</h3>
+                                                <p>719,00 €</p>
+                                                <a>
+                                                    <span class="icon-cart"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="marker-list__item lamp">
+                                    <div class="products">
+                                        <div class="products-upper">
+                                            <div class="products-slider-2 products-slider">
+                                                <div class="products-slider__item">
+                                                    <img src="img/product2.png" alt="Lamp" title="Lamp">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product2.png" alt="Lamp" title="Lamp">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product2.png" alt="Lamp" title="Lamp">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product2.png" alt="Lamp" title="Lamp">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product2.png" alt="Lamp" title="Lamp">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="products-bottom">
+                                            <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                            <p>609,00 €</p>
+                                            <a>
+                                                <span class="icon-cart"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="marker-list__item sofa">
+                                    <div class="products">
+                                        <div class="products-upper">
+                                            <div class="products-slider-3 products-slider">
+                                                <div class="products-slider__item">
+                                                    <img src="img/product3.png" alt="Sofa" title="Sofa">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product3.png" alt="Sofa" title="Sofa">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product3.png" alt="Sofa" title="Sofa">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product3.png" alt="Sofa" title="Sofa">
+                                                </div>
+                                                <div class="products-slider__item">
+                                                    <img src="img/product3.png" alt="Sofa" title="Sofa">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="products-bottom">
+                                            <h3>Table rectangulaire polyvalente - Plateau</h3>
+                                            <p>145,75 € - 147,25 €</p>
+                                            <a>
+                                                <span class="icon-cart"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 imagination-list">
                     <div class="shop-wrapper">
-                        <div class="shop shop-first">
+                        <div class="shop shop-1">
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product1.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product1.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product1.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product1.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product1.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-1 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-1__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-1__next"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-2">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product2.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Canapé 2 places Baltic 102 x 119 cm - Paperflow</h3>
+                                        <p>1 019,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product2.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Canapé 2 places Baltic 102 x 119 cm - Paperflow</h3>
+                                        <p>1 019,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product2.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Canapé 2 places Baltic 102 x 119 cm - Paperflow</h3>
+                                        <p>1 019,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product2.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Canapé 2 places Baltic 102 x 119 cm - Paperflow</h3>
+                                        <p>1 019,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product2.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Canapé 2 places Baltic 102 x 119 cm - Paperflow</h3>
+                                        <p>1 019,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-2 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-2__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-2__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-3">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product3.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Fauteuil Baltic Havane - Paperflow</h3>
@@ -714,11 +1130,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product3.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Fauteuil Baltic Havane - Paperflow</h3>
-                                        <p>619,00 €</p>
+                                        <p>719,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -728,11 +1144,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product3.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Fauteuil Baltic Havane - Paperflow</h3>
-                                        <p>519,00 €</p>
+                                        <p>719,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -742,11 +1158,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product3.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Fauteuil Baltic Havane - Paperflow</h3>
-                                        <p>419,00 €</p>
+                                        <p>719,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -756,11 +1172,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product3.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Fauteuil Baltic Havane - Paperflow</h3>
-                                        <p>319,00 €</p>
+                                        <p>719,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -768,17 +1184,1187 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="shop-nav-first shop-nav">
-                            <button type="button" class="slick-next shop-nav__next shop-nav-first__next"></button>
-                            <button type="button" class="slick-prev shop-nav__prev shop-nav-first__next"></button>
+                        <div class="shop-nav-3 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-3__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-3__prev"></button>
                         </div>
                     </div>
                     <div class="shop-wrapper">
-                        <div class="shop shop-second">
+                        <div class="shop shop-4">
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product4.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire à lumière diffuse - Afra</h3>
+                                        <p>225,00 € - 269,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product4.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire à lumière diffuse - Afra</h3>
+                                        <p>225,00 € - 269,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product4.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire à lumière diffuse - Afra</h3>
+                                        <p>225,00 € - 269,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product4.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire à lumière diffuse - Afra</h3>
+                                        <p>225,00 € - 269,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product4.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire à lumière diffuse - Afra</h3>
+                                        <p>225,00 € - 269,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-4 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-4__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-4__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-5">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product5.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table de réunion - COHESION</h3>
+                                        <p>669,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product5.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table de réunion - COHESION</h3>
+                                        <p>669,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product5.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table de réunion - COHESION</h3>
+                                        <p>669,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product5.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table de réunion - COHESION</h3>
+                                        <p>669,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product5.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table de réunion - COHESION</h3>
+                                        <p>669,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-5 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-5__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-5__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-6">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product6.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil à accoudoir réglable - Manutan</h3>
+                                        <p>269,00 € - 309,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product6.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil à accoudoir réglable - Manutan</h3>
+                                        <p>269,00 € - 309,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product6.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil à accoudoir réglable - Manutan</h3>
+                                        <p>269,00 € - 309,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product6.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil à accoudoir réglable - Manutan</h3>
+                                        <p>269,00 € - 309,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product6.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil à accoudoir réglable - Manutan</h3>
+                                        <p>269,00 € - 309,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-6 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-6__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-6__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-7">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product7.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil de direction ergonomique Vera</h3>
+                                        <p>289,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product7.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil de direction ergonomique Vera</h3>
+                                        <p>289,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product7.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil de direction ergonomique Vera</h3>
+                                        <p>289,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product7.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil de direction ergonomique Vera</h3>
+                                        <p>289,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product7.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil de direction ergonomique Vera</h3>
+                                        <p>289,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-7 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-7__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-7__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-8">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product8.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Siège de bureau Maggi</h3>
+                                        <p>255,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product8.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Siège de bureau Maggi</h3>
+                                        <p>255,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product8.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Siège de bureau Maggi</h3>
+                                        <p>255,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product8.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Siège de bureau Maggi</h3>
+                                        <p>255,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product8.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Siège de bureau Maggi</h3>
+                                        <p>255,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-8 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-8__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-8__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-9">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product9.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise Vesta</h3>
+                                        <p>81,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product9.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise Vesta</h3>
+                                        <p>81,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product9.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise Vesta</h3>
+                                        <p>81,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product9.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise Vesta</h3>
+                                        <p>81,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product9.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise Vesta</h3>
+                                        <p>81,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-9 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-9__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-9__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-10">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product10.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise coque bois Kiara</h3>
+                                        <p>379,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product10.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise coque bois Kiara</h3>
+                                        <p>379,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product10.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise coque bois Kiara</h3>
+                                        <p>379,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product10.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise coque bois Kiara</h3>
+                                        <p>379,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product10.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chaise coque bois Kiara</h3>
+                                        <p>379,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-10 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-10__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-10__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-11">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product11.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table basse Tapioca</h3>
+                                        <p>199,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product11.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table basse Tapioca</h3>
+                                        <p>199,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product11.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table basse Tapioca</h3>
+                                        <p>199,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product11.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table basse Tapioca</h3>
+                                        <p>199,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product11.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table basse Tapioca</h3>
+                                        <p>199,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-11 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-11__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-11__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-12">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product12.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product12.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product12.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product12.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product12.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil accueil Armand</h3>
+                                        <p>168,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-12 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-12__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-12__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-13">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product13.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chauffeuse accueil Bulle</h3>
+                                        <p>290,00 € - 325,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product13.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chauffeuse accueil Bulle</h3>
+                                        <p>290,00 € - 325,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product13.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chauffeuse accueil Bulle</h3>
+                                        <p>290,00 € - 325,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product13.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chauffeuse accueil Bulle</h3>
+                                        <p>290,00 € - 325,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product13.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Chauffeuse accueil Bulle</h3>
+                                        <p>290,00 € - 325,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-13 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-13__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-13__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-14">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product14.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Écran de séparation KE - Acoustique - Clen</h3>
+                                        <p>161,25 € - 219,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product14.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Écran de séparation KE - Acoustique - Clen</h3>
+                                        <p>161,25 € - 219,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product14.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Écran de séparation KE - Acoustique - Clen</h3>
+                                        <p>161,25 € - 219,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product14.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Écran de séparation KE - Acoustique - Clen</h3>
+                                        <p>161,25 € - 219,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product14.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Écran de séparation KE - Acoustique - Clen</h3>
+                                        <p>161,25 € - 219,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-14 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-14__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-14__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-15">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product15.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product15.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product15.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product15.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product15.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-15 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-15__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-15__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-16">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product16.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product16.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product16.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product16.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product16.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de table - Half Moon</h3>
+                                        <p>875,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-16 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-16__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-16__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-17">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product17.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire Memphis</h3>
+                                        <p>245,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product17.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire Memphis</h3>
+                                        <p>245,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product17.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire Memphis</h3>
+                                        <p>245,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product17.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire Memphis</h3>
+                                        <p>245,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product17.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire Memphis</h3>
+                                        <p>245,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-17 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-17__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-17__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-18">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product18.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire avec abat jour effet laqué - …</h3>
+                                        <p>825,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product18.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire avec abat jour effet laqué - …</h3>
+                                        <p>825,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product18.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire avec abat jour effet laqué - …</h3>
+                                        <p>825,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product18.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire avec abat jour effet laqué - …</h3>
+                                        <p>825,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product18.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire avec abat jour effet laqué - …</h3>
+                                        <p>825,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-18 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-18__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-18__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-19">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product19.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Lampadaire en tissu honeycomb - Babel</h3>
@@ -792,11 +2378,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product19.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Lampadaire en tissu honeycomb - Babel</h3>
-                                        <p>609,00 €</p>
+                                        <p>709,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -806,10 +2392,216 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product19.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
                                         <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>709,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product19.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>709,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product19.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>709,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-19 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-19__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-19__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-20">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product20.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Loola avec socle bras simple …</h3>
+                                        <p>249,00 € - 279,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product20.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Loola avec socle bras simple …</h3>
+                                        <p>249,00 € - 279,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product20.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Loola avec socle bras simple …</h3>
+                                        <p>249,00 € - 279,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product20.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Loola avec socle bras simple …</h3>
+                                        <p>249,00 € - 279,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product20.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Loola avec socle bras simple …</h3>
+                                        <p>249,00 € - 279,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-20 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-20__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-20__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-21">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product21.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Arcostar</h3>
+                                        <p>70,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product21.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Arcostar</h3>
+                                        <p>70,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product21.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Arcostar</h3>
+                                        <p>70,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product21.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Arcostar</h3>
+                                        <p>70,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product21.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampe de bureau Arcostar</h3>
+                                        <p>70,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-21 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-21__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-21__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-22">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product22.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Bureau droit Prim</h3>
                                         <p>509,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
@@ -820,11 +2612,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product22.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
-                                        <p>409,00 €</p>
+                                        <h3>Bureau droit Prim</h3>
+                                        <p>509,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -834,11 +2626,39 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product22.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
-                                        <p>309,00 €</p>
+                                        <h3>Bureau droit Prim</h3>
+                                        <p>509,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product22.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Bureau droit Prim</h3>
+                                        <p>509,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/product22.png" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Bureau droit Prim</h3>
+                                        <p>509,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -846,21 +2666,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="shop-nav-second shop-nav">
-                            <button type="button" class="slick-next shop-nav__next shop-nav-second__next"></button>
-                            <button type="button" class="slick-prev shop-nav__prev shop-nav-second__prev"></button>
+                        <div class="shop-nav-22 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-22__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-22__prev"></button>
                         </div>
                     </div>
                     <div class="shop-wrapper">
-                        <div class="shop shop-third">
+                        <div class="shop shop-23">
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product23.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
-                                        <p>145,75 € - 147,25 €</p>
+                                        <h3>Bureau droit MOKA avec meuble retour porteur …</h3>
+                                        <p>635,00 € - 649,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -870,11 +2690,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product23.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
-                                        <p>140,75 € - 145,25 €</p>
+                                        <h3>Bureau droit MOKA avec meuble retour porteur …</h3>
+                                        <p>635,00 € - 649,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -884,11 +2704,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product23.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
-                                        <p>135,75 € - 140,25 €</p>
+                                        <h3>Bureau droit MOKA avec meuble retour porteur …</h3>
+                                        <p>635,00 € - 649,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -898,11 +2718,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product23.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
-                                        <p>130,75 € - 135,25 €</p>
+                                        <h3>Bureau droit MOKA avec meuble retour porteur …</h3>
+                                        <p>635,00 € - 649,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -912,11 +2732,11 @@
                             <div class="shop-item">
                                 <div class="shop-container">
                                     <div class="shop-item__img">
-                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                        <img src="img/product23.png" alt="shop-img" title="shop-img">
                                     </div>
                                     <div class="shop-item__info">
-                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
-                                        <p>125,75 € - 130,25 €</p>
+                                        <h3>Bureau droit MOKA avec meuble retour porteur …</h3>
+                                        <p>635,00 € - 649,00 €</p>
                                     </div>
                                     <div class="shop-item__bucket">
                                         <a href="#"><span class="icon-cart"></span></a>
@@ -924,9 +2744,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="shop-nav-third shop-nav">
-                            <button type="button" class="slick-next shop-nav__next shop-nav-third__next"></button>
-                            <button type="button" class="slick-prev shop-nav__prev shop-nav-third__prev"></button>
+                        <div class="shop-nav-23 shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-23__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-23__prev"></button>
                         </div>
                     </div>
                 </div>
