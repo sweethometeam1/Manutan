@@ -1,0 +1,13 @@
+.webgl-content {
+    height: 100%;
+    width: 100%;
+}
+
+.loading {
+    filter: blur(5px);
+}
+
+#unityContainer {
+    height: 100%;
+    background: transparent !important;
+}

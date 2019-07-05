@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Title for the main page</title>
+    <meta name="description" content="description for the main page">
+    <meta name="keywords" content="keywords for the main page">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/icon-favicon.ico" type="image/x-icon">
+
+    <meta name="theme-color" content="#333">
+    <meta name="msapplication-navbutton-color" content="#333">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#333">
+
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/scene.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row wrapper">
+            <div class="col-lg-3">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="Manutan" title="Manutan">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <form class="header-field">
+                    <label for="headerSearcField"></label>
+                    <input id="headerSearcField" type="search" placeholder="Chercher un produit, une marque, une référence..." class="header-field__search">
+                    <input type="submit" class="header-field__submit" value="">
+                </form>
+            </div>
+            <div class="col-lg-2">
+                <div class="header-user">
+                    <span class="icon-member iconstyle-lg"></span>
+                    <span class="header-user__text">Mon compte</span>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="header-basket">
+                    <span class="icon-cart iconstyle-lg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navigation">
+    <div class="container">
+        <div class="row navigation-wrapper">
+            <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="navigation-tab">
+                            <a href="#" class="navigation-tab__link orange">Parcourir nos catégories</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="navigation-tab">
+                            <a href="#" class="navigation-tab__link grey">Soldes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="navigation-link">
+                    <ul class="navigation-link__list">
+                        <li>
+                            <a href="#">Suivre une commande</a>
+                        </li>
+                        <li>
+                            <a href="#">Devis rapide</a>
+                        </li>
+                        <li>
+                            <a href="#">Aide et contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="main">
+    <div class="specifications">
+        <div class="container">
+            <div class="row main-wrapper">
+                <div class="col-lg-9 main-block">
+                    <div class="poll-progress" id="progressbar"></div>
+                    <div class="poll">
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">What’s the size of your office?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="card-item col-lg-4">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-full-size"></span>
+                                        </div>
+                                        <p class="card-item__name">Under 50 м²</p>
+                                    </a>
+                                </li>
+                                <li class="card-item col-lg-4">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-full-size"></span>
+                                        </div>
+                                        <p class="card-item__name">51 - 100 м²</p>
+                                    </a>
+                                </li>
+                                <li class="card-item col-lg-4">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-full-size"></span>
+                                        </div>
+                                        <p class="card-item__name">101 - 150 м²</p>
+                                    </a>
+                                </li>
+                                <li class="card-item col-lg-4">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-full-size"></span>
+                                        </div>
+                                        <p class="card-item__name">151 - 200 м²</p>
+                                    </a>
+                                </li>
+                                <li class="card-item col-lg-4">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-full-size"></span>
+                                        </div>
+                                        <p class="card-item__name">201 - 250 м²</p>
+                                    </a>
+                                </li>
+                                <li class="card-item col-lg-4">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-full-size"></span>
+                                        </div>
+                                        <p class="card-item__name">Over 250 м²</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">How many people work at the office?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-upto10"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 10</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-1120"></span>
+                                        </div>
+                                        <p class="card-item__name">11 - 20</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-2130"></span>
+                                        </div>
+                                        <p class="card-item__name">21 - 30</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-3140"></span>
+                                        </div>
+                                        <p class="card-item__name">31 - 40</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-4150"></span>
+                                        </div>
+                                        <p class="card-item__name">41 - 50</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-over50"></span>
+                                        </div>
+                                        <p class="card-item__name">Over 50</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">Do you need a conference room?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-6 card-item">
+                                    <a href="#">
+                                        <div class="col-lg-7 card-item__circle">
+                                            <img src="img/round1.jpg" alt="Conference Room Image" title="Conference Room Image">
+                                            <i class="glyph-like"></i>
+                                        </div>
+                                        <p class="card-item__name">Yes</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-6 card-item">
+                                    <a href="#">
+                                        <div class="col-lg-7 card-item__circle">
+                                            <img src="img/round1.jpg" alt="Conference Room Image" title="Conference Room Image">
+                                            <i class="glyph-like unlike"></i>
+                                        </div>
+                                        <p class="card-item__name">No</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">What size of conference room do you need?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-upto10"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 4 people</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-1120"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 6 people</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-2130"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 8 people</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-3140"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 10 people</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-4150"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 12 people</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-over50"></span>
+                                        </div>
+                                        <p class="card-item__name">Over 12 people</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">Do you need an Open space area?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-6 card-item">
+                                    <a href="#">
+                                        <div class="col-lg-7 card-item__circle">
+                                            <img src="img/round2.jpg" alt="Open space area" title="Open space area">
+                                            <i class="glyph-like"></i>
+                                        </div>
+                                        <p class="card-item__name">Yes</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-6 card-item">
+                                    <a href="#">
+                                        <div class="col-lg-7 card-item__circle">
+                                            <img src="img/round2.jpg" alt="Open space area" title="Open space area">
+                                            <i class="glyph-like unlike"></i>
+                                        </div>
+                                        <p class="card-item__name">No</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">How many people work at Open space area?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-upto10"></span>
+                                        </div>
+                                        <p class="card-item__name">Up to 10</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-1120"></span>
+                                        </div>
+                                        <p class="card-item__name">11 - 20</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-2130"></span>
+                                        </div>
+                                        <p class="card-item__name">21 - 30</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-3140"></span>
+                                        </div>
+                                        <p class="card-item__name">31 - 40</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-4150"></span>
+                                        </div>
+                                        <p class="card-item__name">41 - 50</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon">
+                                            <span class="glyph-over50"></span>
+                                        </div>
+                                        <p class="card-item__name">Over 50</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item next-b">
+                            <h2 class="poll-item__title">Which is your price range?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <div class="col-lg-12">
+                                <div class="poll-item__range" id="slider-range"></div>
+                                <div class="poll-item__amount">
+                                    <label for="amount-min"></label>
+                                    <input type="text" id="amount-min" readonly style="border:0; color:#f6931f; font-weight:bold">
+                                    <label for="amount-max"></label>
+                                    <input type="text" id="amount-max" readonly style="border:0; color:#f6931f; font-weight:bold">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">Which is your price range?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon big-icon">
+                                            <span class="glyph-pig"></span>
+                                        </div>
+                                        <p class="card-item__name">Keep it Thrifty</p>
+                                        <p class="card-item__description">I’m a smart saver, i try to get the look for less</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon big-icon">
+                                            <span class="glyph-money"></span>
+                                        </div>
+                                        <p class="card-item__name">Mix High & Low</p>
+                                        <p class="card-item__description">I invest in a few key pieces to get quality items</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#">
+                                        <div class="card-item__icon big-icon">
+                                            <span class="glyph-pig"></span>
+                                        </div>
+                                        <p class="card-item__name">Go for the Best</p>
+                                        <p class="card-item__description">I spend what’s necessary to achieve my vision</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">What is the best way to describe your company?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__photo">
+                                        <img src="img/photo1.jpg" alt="Classic" title="Classic">
+                                        <p class="card-item__name">Classic</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__photo">
+                                        <img src="img/photo2.jpg" alt="Hi Rise" title="Hi Rise">
+                                        <p class="card-item__name">Hi Rise</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__photo">
+                                        <img src="img/photo3.jpg" alt="Sophisticated" title="Sophisticated">
+                                        <p class="card-item__name">Sophisticated</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__photo">
+                                        <img src="img/photo4.jpg" alt="Luxury" title="Luxury">
+                                        <p class="card-item__name">Luxury</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__photo">
+                                        <img src="img/photo5.jpg" alt="Sky high" title="Sky high">
+                                        <p class="card-item__name">Sky high</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__photo">
+                                        <img src="img/photo6.jpg" alt="Evolution" title="Evolution">
+                                        <p class="card-item__name">Evolution</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">What is the variety of colors you would like in your Office</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__full">
+                                        <img src="img/triple1.jpg" alt="Less is more" title="Less is more">
+                                    </a>
+                                    <p class="card-item__name">Less is more</p>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__full">
+                                        <img src="img/triple2.jpg" alt="Balanced" title="Balanced">
+                                    </a>
+                                    <p class="card-item__name">Balanced</p>
+                                </li>
+                                <li class="col-lg-4 card-item">
+                                    <a href="#" class="card-item__full">
+                                        <img src="img/triple3.jpg" alt="More is more" title="More is more">
+                                    </a>
+                                    <p class="card-item__name">More is more</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">Which colors would you like to consider?</h2>
+                            <ul class="poll-item__list card colorful">
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot anakiwa"></i>
+                                        <p class="card-item__description">Anakiwa</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot french"></i>
+                                        <p class="card-item__description">French Pass</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot aero"></i>
+                                        <p class="card-item__description">Aero Blue</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot mauve"></i>
+                                        <p class="card-item__description">Mauve</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot cotton"></i>
+                                        <p class="card-item__description">Cotton Candy</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot pink"></i>
+                                        <p class="card-item__description">Pink</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot congress"></i>
+                                        <p class="card-item__description">Congress Blue</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot observatory"></i>
+                                        <p class="card-item__description">Observatory</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot fun"></i>
+                                        <p class="card-item__description">Fun Green</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot seance"></i>
+                                        <p class="card-item__description">Seance</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot rose"></i>
+                                        <p class="card-item__description">Rose Bud Cherry</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-2 card-item">
+                                    <a href="#" class="card-item__color">
+                                        <i class="card-item__dot maroon"></i>
+                                        <p class="card-item__description">Maroon</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="poll-item next-b">
+                            <h2 class="poll-item__title">Pick the Offices that make you happy</h2>
+                            <p class="poll-item__description">You can choose as you like</p>
+                            <ul class="masonry">
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry1.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry2.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__full">
+                                        <img src="img/masonry3.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__full">
+                                        <img src="img/masonry4.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry5.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry6.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry7.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry8.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry9.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry10.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                                <li class="col-lg-4 masonry-item">
+                                    <a href="#" class="masonry-item__photo">
+                                        <img src="img/masonry1.jpg" alt="Masonry" title="Masonry">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="masonry-shadow"></div>
+                        </div>
+                        <div class="poll-item dislike-b">
+                            <h2 class="poll-item__title">Which style suits you better?</h2>
+                            <p class="poll-item__description">This help us</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-6 card-item">
+                                    <a href="#" class="card-item__square">
+                                        <img src="img/square1.jpg" alt="Conference Room Image" title="Conference Room Image">
+                                    </a>
+                                </li>
+                                <li class="col-lg-6 card-item">
+                                    <a href="#" class="card-item__square">
+                                        <img src="img/square2.jpg" alt="Conference Room Image" title="Conference Room Image">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="poll-nav">
+                        <div class="col-lg-4">
+                            <button type="button" class="slick-prev poll-nav__prev">Prev</button>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="slick-next poll-nav__next">Next</button>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="slick-dislike poll-nav__dislike">i dislike both</button>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="slick-skip poll-nav__skip">Skip</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-block col-lg-2">
+                    <div class="row">
+                        <aside class="aside">
+                            <div class="helper">
+                                <div class="helper-image">
+                                    <img src="img/helper.svg" alt="Helper image" title="Helper image">
+                                </div>
+                                <div class="helper-text">
+                                    <div class="helper-text__info">
+                                        <h3>Hello Anna!</h3>
+                                        <span class="glyph-arrow-bottom opened"></span>
+                                        <p>I’m Made, Made’s Al-powered assistant here to help you fined the best items for you!</p>
+                                    </div>
+                                </div>
+                                <div class="helper-choice">
+                                    <p class="helper-choice__title">Your choices:</p>
+                                    <ul class="helper-choice__list picked">
+                                    </ul>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="imagination">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="visual">
+                        <div class="webgl-content">
+                            <div id="unityContainer"></div>
+                        </div>
+                        <ul class="visual-buttons">
+                            <li class="visual-buttons__item">
+                                <a class="steps" href="#">
+                                    <span class="glyph-right-shoe-footprint"></span>
+                                </a>
+                            </li>
+                            <li class="visual-buttons__item">
+                                <a class="ddd active" href="#">
+                                    <span class="glyph-D"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="shop-wrapper">
+                        <div class="shop shop-first">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil Baltic Havane - Paperflow</h3>
+                                        <p>719,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil Baltic Havane - Paperflow</h3>
+                                        <p>619,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil Baltic Havane - Paperflow</h3>
+                                        <p>519,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil Baltic Havane - Paperflow</h3>
+                                        <p>419,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop1.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Fauteuil Baltic Havane - Paperflow</h3>
+                                        <p>319,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-first shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-first__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-first__next"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-second">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>709,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>609,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>509,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>409,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop2.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Lampadaire en tissu honeycomb - Babel</h3>
+                                        <p>309,00 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-second shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-second__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-second__prev"></button>
+                        </div>
+                    </div>
+                    <div class="shop-wrapper">
+                        <div class="shop shop-third">
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
+                                        <p>145,75 € - 147,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
+                                        <p>140,75 € - 145,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
+                                        <p>135,75 € - 140,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
+                                        <p>130,75 € - 135,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <div class="shop-container">
+                                    <div class="shop-item__img">
+                                        <img src="img/shop3.jpg" alt="shop-img" title="shop-img">
+                                    </div>
+                                    <div class="shop-item__info">
+                                        <h3>Table rectangulaire polyvalente - Plateau</h3>
+                                        <p>125,75 € - 130,25 €</p>
+                                    </div>
+                                    <div class="shop-item__bucket">
+                                        <a href="#"><span class="icon-cart"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-nav-third shop-nav">
+                            <button type="button" class="slick-next shop-nav__next shop-nav-third__next"></button>
+                            <button type="button" class="slick-prev shop-nav__prev shop-nav-third__prev"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="loading">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Calculating your result …</h2>
+                    <p>wait a couple of seconds</p>
+                    <div class="loading-spinner">
+                        <img src="img/ring-spinner.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Contact</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <p>Manutan SA<br>
+                                Z.A.C. du Parc des Tulipes<br>
+                                Avenue du XXIème siècle<br>
+                                95500 Gonesse
+                            </p>
+                        </li>
+                        <li>
+                            <p>Tel: <a href="tel:0134533535">01 34 53 35 35</a></p>
+                        </li>
+                        <li>
+                            <p>Fax: <a href="tel:01 39 85 31 32">01 39 85 31 32</a></p>
+                        </li>
+                        <li>
+                            <p>Contactez nous par <a href="https://www.manutan.fr/fr/maf/contact">email</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Services</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <a href="#">Livraison</a>
+                        </li>
+                        <li>
+                            <a href="#">Solutions Grands Comptes</a>
+                        </li>
+                        <li>
+                            <a href="#">Service Export</a>
+                        </li>
+                        <li>
+                            <a href="#">Demander un devis</a>
+                        </li>
+                        <li>
+                            <a href="#">Application mobile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Aide</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <a href="#">Nous contacter</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Retourner un produit</a>
+                        </li>
+                        <li>
+                            <a href="#">Conditions générales de vente</a>
+                        </li>
+                        <li>
+                            <a href="#">Gestion des cookies</a>
+                        </li>
+                        <li>
+                            <a href="#">Données personnelles</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Manutan Groupe</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <a href="#">Découvrez le Groupe</a>
+                        </li>
+                        <li>
+                            <a href="#">Rejoignez-nous</a>
+                        </li>
+                        <li>
+                            <a href="#">Nos investisseurs</a>
+                        </li>
+                        <li>
+                            <a href="#">Notre blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Digital Wall</a>
+                        </li>
+                        <li>
+                            <label for="footerSelect"></label>
+                            <select id="footerSelect" class="footer-links__select">
+                                <option value="toute">Toute la famille</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <ul class="footer-links__list">
+                        <li>
+                            <img src="img/bpw_footer.png" alt="BPW" title="BPW">
+                        </li>
+                        <li>
+                            <img src="img/fevad.png" alt="Fevad" title="Fevad">
+                            <span>Certifié FEVAD</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Manutan France</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <a href="#">Qui sommes-nous</a>
+                        </li>
+                        <li>
+                            <a href="#">Nos avantages</a>
+                        </li>
+                        <li>
+                            <a href="#">Rationalisation des fournisseurs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Ce que vous pensez de nous</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <a href="#">Retrouver les avis clients</a>
+                        </li>
+                        <li>
+                            <img src="img/widget02.png" alt="widget" title="widget" class="widget-img">
+                        </li>
+                    </ul>
+                    <h3 class="footer-links__title">Suivez votre commande</h3>
+                    <ul class="footer-links__list">
+                        <li>
+                            <a href="#">Je vérifie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 footer-col">
+                <div class="footer-links row">
+                    <h3 class="footer-links__title">Newsletter</h3>
+                    <p>Inscrivez-vous à notre newsletter et recevez nos <b>promotions</b> et <b>offres exclusives</b> en avant-première !</p>
+                    <form class="newsletter">
+                        <label for="newsletterForm"></label>
+                        <input type="email" id="newsletterForm" class="newsletter-email" placeholder="Adresse e-mail">
+                        <input type="submit" class="newsletter-submit" value="Je m'inscris">
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="footer-info">
+                    <p class="footer-info__copyright">Copyright © 2019 Manutan. Mentions légales. Tous droits réservés. Prix affichés en euros et hors TVA.<br>
+                        Site dédié aux professionnels<br>
+                        *Tout y est. Le coeur aussi.
+                    </p>
+                    <div class="footer-info__cards">
+                        <img src="img/methodes_paiement.png" alt="" title="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<script src="js/scripts.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/UnityLoader.js"></script>
+</body>
+</html>
