@@ -7,7 +7,7 @@ const solution = {
       {
         'style': 'urban_9',
         'name': 'sofa',
-        'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
+        'image': 'img/product1.png',
         'id': 'urban_9/sofa_01',
         'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_01|Assets/Prefabs/Sofas/Sofa_01.prefab',
         'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_01',
@@ -22,7 +22,7 @@ const solution = {
       {
         'style': 'urban_9',
         'name': 'table',
-        'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+        'image': 'img/product2.png',
         'id': 'urban_9/table_01',
         'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/tables/table_01|Assets/Prefabs/Tables/Table_01.prefab',
         'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/tables/table_01',
@@ -37,7 +37,7 @@ const solution = {
       {
         'style': 'urban_9',
         'name': 'carpet',
-        'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+        'image': 'img/product3.png',
         'id': 'urban_9/carpet_01',
         'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_01|Assets/Prefabs/Carpets/Carpet_01.prefab',
         'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_01',
@@ -52,7 +52,7 @@ const solution = {
       {
         'style': 'urban_9',
         'name': 'tv_unit',
-        'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+        'image': 'img/product4.png',
         'id': 'urban_9/tv_unit_01',
         'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/tv_units/tv_unit_01|Assets/Prefabs/TV_Units/TV_Unit_01.prefab',
         'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/tv_units/tv_unit_01',
@@ -70,7 +70,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'sofa',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
+          'image': 'img/product1.png',
           'id': 'urban_9/sofa_01',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_01|Assets/Prefabs/Sofas/Sofa_01.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_01',
@@ -85,7 +85,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'sofa',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_2.jpg',
+          'image': 'img/product1.png',
           'id': 'urban_9/sofa_02',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_02|Assets/Prefabs/Sofas/Sofa_02.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_02',
@@ -100,7 +100,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'sofa',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_3.jpg',
+          'image': 'img/product1.png',
           'id': 'urban_9/sofa_03',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_03|Assets/Prefabs/Sofas/Sofa_03.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_03',
@@ -115,7 +115,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'sofa',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_4.jpg',
+          'image': 'img/product1.png',
           'id': 'urban_9/sofa_04',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_04|Assets/Prefabs/Sofas/Sofa_04.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/sofas/sofa_04',
@@ -132,7 +132,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'table',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+          'image': 'img/product2.png',
           'id': 'urban_9/table_01',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/tables/table_01|Assets/Prefabs/Tables/Table_01.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/tables/table_01',
@@ -147,7 +147,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'table',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_2.jpg',
+          'image': 'img/product2.png',
           'id': 'urban_9/table_02',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/tables/table_02|Assets/Prefabs/Tables/Table_02.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/tables/table_02',
@@ -164,7 +164,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'carpet',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+          'image': 'img/product3.png',
           'id': 'urban_9/carpet_01',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_01|Assets/Prefabs/Carpets/Carpet_01.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_01',
@@ -179,7 +179,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'carpet',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+          'image': 'img/product3.png',
           'id': 'urban_9/carpet_02',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_02|Assets/Prefabs/Carpets/Carpet_02.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_02',
@@ -194,7 +194,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'carpet',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+          'image': 'img/product3.png',
           'id': 'urban_9/carpet_03',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_03|Assets/Prefabs/Carpets/Carpet_03.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/carpets/carpet_03',
@@ -211,7 +211,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'tv_unit',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+          'image': 'img/product4.png',
           'id': 'urban_9/tv_unit_01',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/tv_units/tv_unit_01|Assets/Prefabs/TV_Units/TV_Unit_01.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/tv_units/tv_unit_01',
@@ -226,7 +226,7 @@ const solution = {
         {
           'style': 'urban_9',
           'name': 'tv_unit',
-          'image': '/assets/images/stage_4/urban_9/alternatives/coffeetable_1_1.jpg',
+          'image': 'img/product4.png',
           'id': 'urban_9/tv_unit_02',
           'url': 'https://dkbsj3nir6mzw.cloudfront.net/models/tv_units/tv_unit_02|Assets/Prefabs/TV_Units/TV_Unit_02.prefab',
           'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/tv_units/tv_unit_02',
@@ -264,7 +264,10 @@ window.unityItemLoaded = () => {
   loading = false;
   loadedItemsCount++;
   if (loadedItemsCount === solution.data.furniture_info.length) {
-    // stopWaiting();
+    unityInstance.SendMessage('CameraSwitch', 'ChangeCamera', 'orbit');
+    $('.loading').removeClass('waiting');
+    $('.imagination').addClass('start');
+    loadAllModels();
   }
 };
 window.openPopup = (x, y, id) => {
@@ -284,24 +287,93 @@ window.addEventListener('mousewheel', (event) => {
   infoPopupData = null;
 });
 
-$(document).on('click', '.visual-buttons__item .ddd', () => {
-  unityInstance.SendMessage('CameraSwitch', 'ChangeCamera', 'front')
-})
-
-$(document).on('click', '.visual-buttons__item .steps', () => {
-  unityInstance.SendMessage('CameraSwitch', 'ChangeCamera', 'orbit')
-})
-
-/*$(document).on('click', '.card-item__square', () => {
+$(document).on('click', '.card-item__color', () => {
   unityInstance = UnityLoader.instantiate(
     'unityContainer',
     '/scenes/Build/Build.json',
   );
-})*/
+
+  $('.loading').addClass('waiting');
+})
 
 $(document).ready(() => {
-  unityInstance = UnityLoader.instantiate(
+  Object.keys(solution.data.alternatives).map((k, i) => {
+    $('.imagination-list').append(`
+      <div class="shop-wrapper">
+        <div class="shop shop-${k}"></div>
+        <div class="shop-nav-${k} shop-nav">
+            <button type="button" class="slick-next shop-nav__next shop-nav-${k}__next"></button>
+            <button type="button" class="slick-prev shop-nav__prev shop-nav-${k}__next"></button>
+        </div>
+      </div>
+    `)
+    const type = solution.data.alternatives[k]
+    type.map(t => {
+      $(`.shop-${k}`).append(`
+        <div class="shop-item">
+            <div class="shop-container">
+                <div class="shop-item__img">
+                    <img src="${t.image}" alt="shop-img" title="shop-img">
+                </div>
+                <div class="shop-item__info">
+                    <h3>${t.info.join(' ')}</h3>
+                    <p>${t.price},00 €</p>
+                </div>
+                <div class="shop-item__bucket">
+                    <a href="#"><span class="icon-cart"></span></a>
+                </div>
+            </div>
+        </div>
+      `)
+    })
+
+    const prevArrow = $(`.shop-nav-${k}__next.shop-nav__prev`);
+    const nextArrow = $(`.shop-nav-${k}__next.shop-nav__next`);
+
+    $(`.shop-${k}`).slick({
+      arrows: true,
+      autoplay: false,
+      prevArrow,
+      nextArrow,
+      fade: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      focusOnChange: false,
+      focusOnSelect: false,
+      infinite: true,
+      dots: true,
+    });
+
+/*    prevArrow.click(() => {
+      unityInstance.SendMessage(
+        f.type,
+        'Load',
+        f.assetUrl + '|' + f.assetName + '|' + f.id
+      )
+    })
+
+    nextArrow.click(() => {
+      unityInstance.SendMessage(
+        f.type,
+        'Load',
+        f.assetUrl + '|' + f.assetName + '|' + f.id
+      )
+    })*/
+  })
+  /*unityInstance = UnityLoader.instantiate(
     'unityContainer',
     '/scenes/Build/Build.json',
-  );
+  );*/
 })
+
+
+function loadAllModels() {
+  const { alternatives } = solution.data
+  Object.keys(alternatives).map(k =>
+    alternatives[k].map(f => unityInstance.SendMessage(
+      f.type,
+      'Load',
+      f.assetUrl + '|' + f.assetName + '|' + f.id
+    ), 1)
+  );
+}

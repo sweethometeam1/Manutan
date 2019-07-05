@@ -1494,7 +1494,7 @@ input[type=search] {
 
 .visual {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 20px;
     margin-left: -15px;
     margin-right: -15px
 }
