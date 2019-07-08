@@ -297,7 +297,7 @@ $(document).on('click', '.card-item__color', () => {
 })
 
 $(document).ready(() => {
-  Object.keys(solution.data.alternatives).map((k, i) => {
+  Object.keys(solution.data.alternatives).map(k => {
     $('.imagination-list').append(`
       <div class="shop-wrapper">
         <div class="shop shop-${k}"></div>
@@ -308,9 +308,9 @@ $(document).ready(() => {
       </div>
     `)
     const type = solution.data.alternatives[k]
-    type.map(t => {
+    type.map((t, i) => {
       $(`.shop-${k}`).append(`
-        <div class="shop-item">
+        <div class="shop-item shop-${k}-item-${i}" data-model-url="${t.assetUrl}|${t.assetName}|${t.id}|true" data-type="${t.type}">
             <div class="shop-container">
                 <div class="shop-item__img">
                     <img src="${t.image}" alt="shop-img" title="shop-img">
@@ -330,7 +330,9 @@ $(document).ready(() => {
     const prevArrow = $(`.shop-nav-${k}__next.shop-nav__prev`);
     const nextArrow = $(`.shop-nav-${k}__next.shop-nav__next`);
 
-    $(`.shop-${k}`).slick({
+    const shop = $(`.shop-${k}`)
+
+    shop.slick({
       arrows: true,
       autoplay: false,
       prevArrow,
@@ -344,21 +346,14 @@ $(document).ready(() => {
       dots: true,
     });
 
-/*    prevArrow.click(() => {
+    shop.on('afterChange', function(event, slick, currentSlide){
+      const currentItem = $(`.shop-${k}-item-${currentSlide}`);
       unityInstance.SendMessage(
-        f.type,
+        currentItem.attr('data-type'),
         'Load',
-        f.assetUrl + '|' + f.assetName + '|' + f.id
+        currentItem.attr('data-model-url')
       )
-    })
-
-    nextArrow.click(() => {
-      unityInstance.SendMessage(
-        f.type,
-        'Load',
-        f.assetUrl + '|' + f.assetName + '|' + f.id
-      )
-    })*/
+    });
   })
   /*unityInstance = UnityLoader.instantiate(
     'unityContainer',
