@@ -296,6 +296,10 @@ $(document).on('click', '.card-item__color', () => {
   $('.loading').addClass('waiting');
 })
 
+$(document).on('click', '.change-walls-color-button', () => {
+  unityInstance.SendMessage('Walls', 'ChooseNextMat');
+})
+
 $(document).ready(() => {
   Object.keys(solution.data.alternatives).map(k => {
     $('.imagination-list').append(`
