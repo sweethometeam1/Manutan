@@ -2067,53 +2067,9 @@ input[type=search] {
     z-index: 1
 }
 
-.manutan-list {
-    list-style: none;
-    border: 1px solid #e8e8e8;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding: 0;
-    border-top: 0
-}
-
-.manutan-list__item {
-    display: block
-}
-
-.manutan-list__item > a {
-    padding: 12px 10px;
-    color: #575756;
-    display: block;
-    width: 100%;
-    height: 100%
-}
-
 .bucket-form, .search {
     display: -webkit-box;
     display: -ms-flexbox
-}
-
-.manutan-list__item > a.dark {
-    background-color: #f5f5f5
-}
-
-.manutan-list__item > a.pick, .manutan-list__item > a:hover {
-    background-color: #e8e8e8;
-    color: #000
-}
-
-.manutan-list__item > a:hover {
-    text-decoration: none
-}
-
-.manutan-content {
-    padding-top: 8px;
-    background-color: #fff;
-    width: 100%
-}
-
-.manutan-content__slider {
-    padding: 20px 0
 }
 
 .search {
@@ -2807,7 +2763,6 @@ body {
     width: 100%;
     height: 100%;
     opacity: 0;
-    visibility: hidden;
     pointer-events: none;
     z-index: 0;
     padding: 32px 0;
@@ -2868,23 +2823,6 @@ body {
 .imagination-list {
     height: 591px;
     overflow-y: scroll
-}
-
-.manutan {
-    position: relative;
-    z-index: 2
-}
-
-.manutan.start {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    z-index: 0
 }
 
 .b-fix {
