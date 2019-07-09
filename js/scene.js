@@ -384,16 +384,14 @@ window.addEventListener('mousewheel', (event) => {
   infoPopupData = null;
 });
 
-$('.poll').on('afterChange', (event, slick, currentSlide) => {
-  if (currentSlide === $('.poll-item').length - 1) {
+$(document).on('click', '.poll-nav__submit', (e) => {
     unityInstance = UnityLoader.instantiate(
       'unityContainer',
       '/scenes/office/Build/office.json',
     );
 
     $('.loading').addClass('waiting');
-    event.preventDefault();
-  }
+    e.preventDefault();
 })
 
 $(document).on('click', '.change-walls-color-button', () => {

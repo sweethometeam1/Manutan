@@ -639,7 +639,29 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="poll-item"></div>
+                        <div class="poll-item">
+                            <h2 class="poll-item__title">What is your room dimensions?</h2>
+                            <p class="poll-item__description">Please draw it, or upload your plan</p>
+                            <ul class="poll-item__list card">
+                                <li class="col-lg-6 card-item">
+                                    <a href="#" class="card-item__space">
+                                        <div class="card-item__icon big-icon">
+                                            <span class="glyph-paint-palette"></span>
+                                        </div>
+                                        <p class="card-item__name">Draw on your own</p>
+                                    </a>
+                                </li>
+                                <li class="col-lg-6 card-item">
+                                    <form method="post" class="floor-form">
+                                        <div class="card-item__icon big-icon">
+                                            <span class="glyph-cloud-computing"></span>
+                                        </div>
+                                        <p class="card-item__name">Uploading floor plan</p>
+                                        <input type="file" id="upload">
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="poll-nav">
                         <div class="col-lg-4">
@@ -650,6 +672,9 @@
                         </div>
                         <div class="col-lg-4">
                             <button type="button" class="slick-dislike poll-nav__dislike">i dislike both</button>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" class="slick-dislike poll-nav__submit">Submit</button>
                         </div>
                         <div class="col-lg-4">
                             <button type="button" class="slick-skip poll-nav__skip">Skip</button>
@@ -687,6 +712,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <div class="visual">
+                        <img src="img/visual1.jpg" title="Imagination" alt="Imagination">
                         <ul class="visual-buttons">
                             <li class="visual-buttons__item">
                                 <a class="steps" href="#">
