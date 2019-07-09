@@ -3,33 +3,81 @@ const solution = {
   'outline': [],
   'data': {
     'furniture_cad': [],
-    'furniture_info': [],
-    'alternatives': {}
-  },
-  'ctime': new Date('2019-06-11T13:47:21.361701Z'),
-  'style': 'urban_9',
-  'image': '/assets/images/stage_4/urban_9/reference.jpg',
-  'owner': 'f97cd08d-19e7-4f01-afbf-bc3902bd81aa'
+    'furniture_info': [
+      {
+        'name': 'armchair',
+        'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
+        'id': 'BodilAccentChairGreyLeather',
+        'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/bodilaccentchairgreyleather',
+        'assetName': 'Assets/Office/Prefabs/Armchairs/BodilAccentChairGreyLeather.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        types: ['Armchairs (1)', 'Armchairs (2)']
+      }
+    ],
+    'alternatives': {
+      'armchair': [
+        {
+          'name': 'armchair',
+          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
+          'id': 'BodilAccentChairGreyLeather',
+          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/bodilaccentchairgreyleather',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/BodilAccentChairGreyLeather.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          types: ['Armchairs (1)', 'Armchairs (2)']
+        },
+        {
+          'name': 'armchair',
+          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
+          'id': 'MilnerReclinerChair',
+          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/milnerreclinerchair',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/MilnerReclinerChair.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          types: ['Armchairs (1)', 'Armchairs (2)']
+        },
+        {
+          'name': 'armchair',
+          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
+          'id': 'NevadaArmchairAntiqueCognacLeather',
+          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/nevadaarmchairantiquecognacleather',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/NevadaArmchairAntiqueCognacLeather.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          types: ['Armchairs (1)', 'Armchairs (2)']
+        },
+        {
+          'name': 'armchair',
+          'image': '/img/product1.jpg',
+          'id': 'NevadaArmchairAntiqueWhiteLeather',
+          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/nevadaarmchairantiquewhiteleather',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/NevadaArmchairAntiqueWhiteLeather.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          types: ['Armchairs (1)', 'Armchairs (2)']
+        }
+      ]
+    }
+  }
 };
 let unityInstance = null;
 let loadedItemsCount = 0;
 let infoPopupData = null;
 
 window.loadUnitySetup = () => {
-  console.log('scene loading time', Date.now() - this.startDate);
   solution.data.furniture_info.map(f =>
-    unityInstance.SendMessage(
-      f.type,
+    f.types.map(t => unityInstance.SendMessage(
+      t,
       'Load',
       f.assetUrl + '|' + f.assetName + '|' + f.id + '|true'
-    )
+    ))
   );
 };
 window.unityItemLoaded = () => {
   loading = false;
   loadedItemsCount++;
   if (loadedItemsCount === solution.data.furniture_info.length) {
-    unityInstance.SendMessage('CameraSwitch', 'ChangeCamera', 'orbit');
     $('.loading').removeClass('waiting');
     $('.imagination').addClass('start');
     loadAllModels();
@@ -68,6 +116,14 @@ $(document).on('click', '.change-walls-color-button', () => {
   unityInstance.SendMessage('Walls', 'ChooseNextMat');
 })
 
+$(document).on('click', '.steps', () => {
+  unityInstance.SendMessage('CameraSwitch', 'ChangeCamera', 'walk');
+})
+
+$(document).on('click', '.ddd', () => {
+  unityInstance.SendMessage('CameraSwitch', 'ChangeCamera', 'orbit');
+})
+
 $(document).ready(() => {
   Object.keys(solution.data.alternatives).map(k => {
     $('.imagination-list').append(`
@@ -82,7 +138,7 @@ $(document).ready(() => {
     const type = solution.data.alternatives[k]
     type.map((t, i) => {
       $(`.shop-${k}`).append(`
-        <div class="shop-item shop-${k}-item-${i}" data-model-url="${t.assetUrl}|${t.assetName}|${t.id}|true" data-type="${t.type}">
+        <div class="shop-item shop-${k}-item-${i}" data-model-url="${t.assetUrl}|${t.assetName}|${t.id}|true" data-type="${t.types}">
             <div class="shop-container">
                 <div class="shop-item__img">
                     <img src="${t.image}" alt="shop-img" title="shop-img">
@@ -120,27 +176,31 @@ $(document).ready(() => {
 
     shop.on('afterChange', function(event, slick, currentSlide){
       const currentItem = $(`.shop-${k}-item-${currentSlide}`);
-      unityInstance.SendMessage(
-        currentItem.attr('data-type'),
-        'Load',
-        currentItem.attr('data-model-url')
+      currentItem.attr('data-type').map(t =>
+        unityInstance.SendMessage(
+          t,
+          'Load',
+          currentItem.attr('data-model-url')
+        )
       )
     });
   })
-  /*unityInstance = UnityLoader.instantiate(
+/*  unityInstance = UnityLoader.instantiate(
     'unityContainer',
-    '/scenes/Build/Build.json',
-  );*/
+    '/scenes/office/Build/office.json',
+  );
+  window.unityInstance = unityInstance*/
 })
 
 
 function loadAllModels() {
   const { alternatives } = solution.data
   Object.keys(alternatives).map(k =>
-    alternatives[k].map(f => unityInstance.SendMessage(
-      f.type,
-      'Load',
-      f.assetUrl + '|' + f.assetName + '|' + f.id
-    ), 1)
-  );
+    alternatives[k].map(
+      f.types.map(t => unityInstance.SendMessage(
+        t,
+        'Load',
+        f.assetUrl + '|' + f.assetName + '|' + f.id
+      ))
+    ), 1);
 }
