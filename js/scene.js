@@ -5,58 +5,342 @@ const solution = {
     'furniture_cad': [],
     'furniture_info': [
       {
-        'name': 'armchair',
-        'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
-        'id': 'BodilAccentChairGreyLeather',
-        'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/bodilaccentchairgreyleather',
+        'name': 'armchair1',
+        'image': '/img/product1.png',
+        'id': '1',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/bodilaccentchairgreyleather',
         'assetName': 'Assets/Office/Prefabs/Armchairs/BodilAccentChairGreyLeather.prefab',
         'info': ['Houzz', 'Angled Leather Sofa'],
         'price': 5800,
-        types: ['Armchairs (1)', 'Armchairs (2)']
+        type: 'Armchairs (1)'
+      },
+      {
+        'name': 'armchair2',
+        'image': '/img/product1.png',
+        'id': '2',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/bodilaccentchairgreyleather',
+        'assetName': 'Assets/Office/Prefabs/Armchairs/BodilAccentChairGreyLeather.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Armchairs (2)'
+      },
+      {
+        'name': 'sofa1',
+        'image': '/img/product1.png',
+        'id': '3',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/empressupholsteredsofaazuregrey',
+        'assetName': 'Assets/Office/Prefabs/Sofas/EmpressUpholsteredSofaAzureGrey.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Sofas (1)'
+      },
+      {
+        'name': 'chair1',
+        'image': '/img/product1.png',
+        'id': '5',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (1)'
+      },
+      {
+        'name': 'chair2',
+        'image': '/img/product1.png',
+        'id': '6',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (2)'
+      },
+      {
+        'name': 'chair3',
+        'image': '/img/product1.png',
+        'id': '7',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (3)'
+      },
+      {
+        'name': 'chair4',
+        'image': '/img/product1.png',
+        'id': '8',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (4)'
+      },
+      {
+        'name': 'chair5',
+        'image': '/img/product1.png',
+        'id': '9',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (5)'
+      },
+      {
+        'name': 'chair6',
+        'image': '/img/product1.png',
+        'id': '10',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (6)'
+      },
+      {
+        'name': 'chair7',
+        'image': '/img/product1.png',
+        'id': '11',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (7)'
+      },
+      {
+        'name': 'chair8',
+        'image': '/img/product1.png',
+        'id': '12',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (8)'
+      },
+      {
+        'name': 'chair9',
+        'image': '/img/product1.png',
+        'id': '13',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (9)'
+      },
+      {
+        'name': 'chair10',
+        'image': '/img/product1.png',
+        'id': '14',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (10)'
+      },
+      {
+        'name': 'chair11',
+        'image': '/img/product1.png',
+        'id': '15',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (11)'
+      },
+      {
+        'name': 'chair12',
+        'image': '/img/product1.png',
+        'id': '16',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (12)'
+      },
+      {
+        'name': 'chair13',
+        'image': '/img/product1.png',
+        'id': '17',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (13)'
+      },
+      {
+        'name': 'chair14',
+        'image': '/img/product1.png',
+        'id': '18',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (14)'
+      },
+      {
+        'name': 'chair15',
+        'image': '/img/product1.png',
+        'id': '19',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (15)'
+      },
+      {
+        'name': 'chair16',
+        'image': '/img/product1.png',
+        'id': '20',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (16)'
+      },
+      {
+        'name': 'chair17',
+        'image': '/img/product1.png',
+        'id': '21',
+        'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/armchairforgamevertagearracingpl6000black',
+        'assetName': 'Assets/Office/Prefabs/Chairs/ArmchairForGameVertagearRacingPL6000black.prefab',
+        'info': ['Houzz', 'Angled Leather Sofa'],
+        'price': 5800,
+        type: 'Chairs (17)'
       }
     ],
     'alternatives': {
-      'armchair': [
+      'armchair1': [
         {
-          'name': 'armchair',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
-          'id': 'BodilAccentChairGreyLeather',
-          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/bodilaccentchairgreyleather',
+          'name': 'armchair1',
+          'image': '/img/product1.png',
+          'id': '1',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/bodilaccentchairgreyleather',
           'assetName': 'Assets/Office/Prefabs/Armchairs/BodilAccentChairGreyLeather.prefab',
           'info': ['Houzz', 'Angled Leather Sofa'],
           'price': 5800,
-          types: ['Armchairs (1)', 'Armchairs (2)']
+          type: 'Armchairs (1)'
         },
         {
-          'name': 'armchair',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
-          'id': 'MilnerReclinerChair',
-          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/milnerreclinerchair',
+          'name': 'armchair1',
+          'image': '/img/product1.png',
+          'id': '22',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/milnerreclinerchair',
           'assetName': 'Assets/Office/Prefabs/Armchairs/MilnerReclinerChair.prefab',
           'info': ['Houzz', 'Angled Leather Sofa'],
           'price': 5800,
-          types: ['Armchairs (1)', 'Armchairs (2)']
+          type: 'Armchairs (1)'
         },
         {
-          'name': 'armchair',
-          'image': '/assets/images/stage_4/urban_9/alternatives/sofa3sit_1_1.jpg',
-          'id': 'NevadaArmchairAntiqueCognacLeather',
-          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/nevadaarmchairantiquecognacleather',
+          'name': 'armchair1',
+          'image': '/img/product1.png',
+          'id': '23',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/nevadaarmchairantiquecognacleather',
           'assetName': 'Assets/Office/Prefabs/Armchairs/NevadaArmchairAntiqueCognacLeather.prefab',
           'info': ['Houzz', 'Angled Leather Sofa'],
           'price': 5800,
-          types: ['Armchairs (1)', 'Armchairs (2)']
+          type: 'Armchairs (1)'
         },
         {
-          'name': 'armchair',
-          'image': '/img/product1.jpg',
-          'id': 'NevadaArmchairAntiqueWhiteLeather',
-          'assetUrl': 'https://renovai-models.s3.us-east-2.amazonaws.com/models/office-demo/nevadaarmchairantiquewhiteleather',
+          'name': 'armchair1',
+          'image': '/img/product1.png',
+          'id': '24',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/nevadaarmchairantiquewhiteleather',
           'assetName': 'Assets/Office/Prefabs/Armchairs/NevadaArmchairAntiqueWhiteLeather.prefab',
           'info': ['Houzz', 'Angled Leather Sofa'],
           'price': 5800,
-          types: ['Armchairs (1)', 'Armchairs (2)']
+          type: 'Armchairs (1)'
         }
+      ],
+      'armchair2': [
+        {
+          'name': 'armchair2',
+          'image': '/img/product1.png',
+          'id': '2',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/bodilaccentchairgreyleather',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/BodilAccentChairGreyLeather.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Armchairs (2)'
+        },
+        {
+          'name': 'armchair2',
+          'image': '/img/product1.png',
+          'id': '25',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/milnerreclinerchair',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/MilnerReclinerChair.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Armchairs (2)'
+        },
+        {
+          'name': 'armchair2',
+          'image': '/img/product1.png',
+          'id': '26',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/nevadaarmchairantiquecognacleather',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/NevadaArmchairAntiqueCognacLeather.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Armchairs (2)'
+        },
+        {
+          'name': 'armchair2',
+          'image': '/img/product1.png',
+          'id': '27',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/nevadaarmchairantiquewhiteleather',
+          'assetName': 'Assets/Office/Prefabs/Armchairs/NevadaArmchairAntiqueWhiteLeather.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Armchairs (2)'
+        }
+      ],
+      'sofa1': [
+        {
+          'name': 'sofa1',
+          'image': '/img/product1.png',
+          'id': '3',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/empressupholsteredsofaazuregrey',
+          'assetName': 'Assets/Office/Prefabs/Sofas/EmpressUpholsteredSofaAzureGrey.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Sofas (1)'
+        },
+        {
+          'name': 'sofa1',
+          'image': '/img/product1.png',
+          'id': '28',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/edsonlargebenchcementmetal',
+          'assetName': 'Assets/Office/Prefabs/Sofas/EdsonLargeBenchCementMetal.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Sofas (1)'
+        },
+        {
+          'name': 'sofa1',
+          'image': '/img/product1.png',
+          'id': '29',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/empressupholsteredsofaazuremodway',
+          'assetName': 'Assets/Office/Prefabs/Sofas/EmpressUpholsteredSofaAzureModway.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Sofas (1)'
+        },
+        {
+          'name': 'sofa1',
+          'image': '/img/product1.png',
+          'id': '30',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/empressupholsteredsofaazurepink',
+          'assetName': 'Assets/Office/Prefabs/Sofas/EmpressUpholsteredSofaAzurePink.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Sofas (1)'
+        },
+        {
+          'name': 'sofa1',
+          'image': '/img/product1.png',
+          'id': '30',
+          'assetUrl': 'https://dkbsj3nir6mzw.cloudfront.net/models/office-demo/ohiosofabed',
+          'assetName': 'Assets/Office/Prefabs/Sofas/OhioSofaBed.prefab',
+          'info': ['Houzz', 'Angled Leather Sofa'],
+          'price': 5800,
+          type: 'Sofas (1)'
+        },
       ]
     }
   }
@@ -66,21 +350,21 @@ let loadedItemsCount = 0;
 let infoPopupData = null;
 
 window.loadUnitySetup = () => {
-  solution.data.furniture_info.map(f =>
-    f.types.map(t => unityInstance.SendMessage(
-      t,
+  solution.data.furniture_info.map(f => {
+    unityInstance.SendMessage(
+      f.type,
       'Load',
       f.assetUrl + '|' + f.assetName + '|' + f.id + '|true'
-    ))
+    )}, 1
   );
 };
 window.unityItemLoaded = () => {
-  loading = false;
+  $('.webgl-content').css({ filter: 'blur(0px)' })
   loadedItemsCount++;
   if (loadedItemsCount === solution.data.furniture_info.length) {
     $('.loading').removeClass('waiting');
     $('.imagination').addClass('start');
-    loadAllModels();
+    // loadAllModels();
   }
 };
 window.openPopup = (x, y, id) => {
@@ -138,7 +422,7 @@ $(document).ready(() => {
     const type = solution.data.alternatives[k]
     type.map((t, i) => {
       $(`.shop-${k}`).append(`
-        <div class="shop-item shop-${k}-item-${i}" data-model-url="${t.assetUrl}|${t.assetName}|${t.id}|true" data-type="${t.types}">
+        <div class="shop-item shop-${k}-item-${i}" data-model-url="${t.assetUrl}|${t.assetName}|${t.id}|true" data-type="${t.type}">
             <div class="shop-container">
                 <div class="shop-item__img">
                     <img src="${t.image}" alt="shop-img" title="shop-img">
@@ -175,13 +459,12 @@ $(document).ready(() => {
     });
 
     shop.on('afterChange', function(event, slick, currentSlide){
+      $('.webgl-content').css({ filter: 'blur(5px)' })
       const currentItem = $(`.shop-${k}-item-${currentSlide}`);
-      currentItem.attr('data-type').map(t =>
-        unityInstance.SendMessage(
-          t,
-          'Load',
-          currentItem.attr('data-model-url')
-        )
+      unityInstance.SendMessage(
+        currentItem.attr('data-type'),
+        'Load',
+        currentItem.attr('data-model-url')
       )
     });
   })
@@ -196,11 +479,11 @@ $(document).ready(() => {
 function loadAllModels() {
   const { alternatives } = solution.data
   Object.keys(alternatives).map(k =>
-    alternatives[k].map(
-      f.types.map(t => unityInstance.SendMessage(
-        t,
+    alternatives[k].map(f =>
+      unityInstance.SendMessage(
+        f.type,
         'Load',
         f.assetUrl + '|' + f.assetName + '|' + f.id
-      ))
+      )
     ), 1);
 }
